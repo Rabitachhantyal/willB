@@ -1,0 +1,86 @@
+.cards {
+  padding: 4rem;
+  background: #fff;
+}
+
+h2 {
+  margin-top: -20px;
+  text-align: left;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+
+.cards-container1 {
+  height: 400px;
+  width: 600px;
+  border: 1px solid whitesmoke;
+  float: left;
+  box-shadow: 10px 5px 5px lightseagreen;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.cards-container2 {
+  height: 400px;
+  width: 600px;
+  border: 1px solid whitesmoke;
+  float: right;
+  box-shadow: 10px 5px 5px lightseagreen;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.cards-container1 > h2 {
+  margin: 8px;
+  padding-left: 10px;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.cards-container2 > h2 {
+  margin: 8px;
+  padding-left: 10px;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.card-content {
+  width: 500px;
+  height: 120px;
+  border: 1px solid whitesmoke;
+  margin: 20px;
+  margin-left: 50px;
+  align-items: center;
+  box-shadow: 5px 3px 3px gainsboro;
+}
+
+.card-item1 {
+  margin: 5px;
+}
+
+.card-item2 {
+  margin: 5px;
+}
+
+.card-item2 > h3 {
+  margin-top: 25px;
+  margin-left: 100px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.card-item2 > p {
+  margin-top: 20px;
+  margin-left: 100px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+a {
+  margin: 5px;
+  margin-right: 20px;
+  float: right;
+}

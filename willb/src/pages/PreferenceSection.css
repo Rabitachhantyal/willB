@@ -1,0 +1,110 @@
+.preference-container {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  margin-bottom: 0px;
+  margin-top: -20px;
+  margin-left: -80px;
+  margin-right: 0px;
+}
+
+/* .preference-container-content1 {
+    height: 88vh;
+    width: 200px;
+    margin: 0px;
+    float: left;
+}
+
+.preference-container-content1 {
+    height: 88vh;
+    width: 100px;
+    margin: 0px;
+} */
+
+.preference-container > h1 {
+  color: green;
+  font-size: 50px;
+  margin-top: 5px;
+  margin: 60px;
+}
+
+.preference-btns1 {
+  margin-top: 3px;
+  margin-left: -100px;
+  float: left;
+}
+
+.preference-btns1 .btn {
+  margin: 5;
+  margin-left: 80px;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+.preference-btns2 {
+  margin-top: 15px;
+  margin-left: -100px;
+  float: left;
+}
+
+.preference-btns2 .btn {
+  margin-left: 120px;
+}
+
+.preference-btns3 {
+  margin-top: 15px;
+  margin-left: -300px;
+  float: left;
+}
+
+.preference-btns3 .btn {
+  margin-left: 80px;
+}
+
+.preference-btns4 {
+  margin-top: 50px;
+  margin-left: -80px;
+  width: 200px;
+  float: left;
+  text-align: center;
+}
+
+.preference-btns4 .btn {
+  width: 200px;
+  margin-left: 80px;
+  background-color: darkred;
+  color: white;
+}
+
+.preference-btns4 .btn:hover {
+  background: palevioletred;
+  color: white;
+  transition: all 0.3s ease-out;
+}
+
+.image {
+  width: 350px;
+  height: 1000px;
+  margin-top: -290px;
+  margin-left: 1280px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  background-image: url("../images/phone.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+@media screen and (max-width: 960px) {
+  .preference-container > h1 {
+    color: green;
+    font-size: 100px;
+    margin-top: 50px;
+  }
+}

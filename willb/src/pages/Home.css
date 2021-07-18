@@ -1,0 +1,44 @@
+.quote {
+  margin-top: 100px;
+  margin-left: 150px;
+  text-align: center;
+}
+
+h1 {
+  animation: type 3s steps(22);
+  overflow: hidden;
+  white-space: nowrap;
+}
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 22ch;
+  }
+  100% {
+    width: 22ch;
+  }
+}
+
+.slide-img {
+  margin-top: 90px;
+  margin-left: 230px;
+  overflow: hidden;
+  height: 500px;
+  width: 500px;
+}
+
+.button-go {
+  margin-top: 80px;
+  margin-left: 500px;
+  text-align: center;
+  background-color: seagreen;
+  border-radius: 11px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  width: 120px;
+
+  height: 40px;
+  font-size: 20px;
+}
